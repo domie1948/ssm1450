@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="zs" extends="struts-default">
+		<global-results>
+			 
+			<result name="image" type="stream">
+				<param name="contentType">image/jpeg</param>
+				<param name="inputName">image</param>
+			</result>
+			<result name="ajaxjson" type="stream">
+				<param name="contentType">text/html</param>
+				<param name="inputName">json</param>
+			</result>
+			<!-- 下载专用，action中fileInput属性是文件输入流实体，fileName属性是文件名 -->
+			<result name="file" type="stream">
+				<param name="contentType">application/x-msdownload;charset=utf-8</param>
+				<param name="inputName">fileInput</param>
+				<param name="contentDisposition">attachment;filename="${fileName}"</param>
+			</result>
+			<!-- actionurl重定向 -->
+			<result name="redirect" type="redirect">${actionurl}</result>
+		</global-results>
+		<action name="*_*Action_*" class="{1}_{2}Action" method="{3}">
+			<result>/{1}/{2}_{3}.jsp</result>		
+		</action>
+	</package>
+</struts>

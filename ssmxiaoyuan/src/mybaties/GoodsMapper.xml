@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zs.test.dao.inf.GoodsDao">
+  	 <resultMap type="com.zs.test.entity.Goods" id="goodsMap">
+        <id property="id" column="id" />
+        <result property="name" column="name" />
+        <result property="cata" column="cata"/>
+        <result property="price" column="price" />
+        <result property="sum" column="sum"/>
+        <result property="imgurl" column="imgurl" />
+         <result property="salesum" column="salesum"/>
+        <result property="addtime" column="addtime"/>
+     </resultMap>
+     <sql id="column_list">id,name,cata,price,sum,salesum,imgurl,addtime</sql>
+	<select id="getGoodsById" parameterType="int" resultMap="goodsMap">
+       select <include refid="column_list"/> from goods where id = #{id}
+    </select>
+ 
+ 	<select id="getGoodsBycata" parameterType="int" resultMap="goodsMap">
+       select <include refid="column_list"/> from goods where cata = #{cata}
+    </select>
+   
+    
+    <insert id="addGoodsFull" parameterType="com.zs.test.entity.Goods">
+    	insert into Goods (name ,cata,price,sum,imgurl,addtime) values(#{name},#{cata},#{price},#{sum},#{imgurl},#{addtime})
+    </insert>
+    
+    <insert id="updateGoods" parameterType="com.zs.test.entity.Goods">
+    	update Goods set name=#{name}, cata=#{cata},price=#{price},salesum=#{salesum},sum=#{sum},imgurl=#{imgurl},addtime=#{addtime} where id=#{id};
+    </insert>
+    
+    <select id="getGoodsList" resultMap="goodsMap">
+    	select <include refid="column_list"/> from Goods where 1=1;
+    </select>
+    
+    <select id="getGoodsListSome"  parameterType="map" resultMap="goodsMap">
+       select <include refid="column_list"/> from goods where 1 = 1 <if test="orderBy != null" >order by ${orderBy}</if>limit ${start},${end}
+    </select>
+    <delete id="deleteById" parameterType="int" >
+    	delete from Goods where id=#{id};
+    </delete>
+    
+    
+    
+</mapper>

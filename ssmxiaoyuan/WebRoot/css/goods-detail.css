@@ -1,0 +1,501 @@
+.common {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+/*header*/
+.header{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: 40px;
+    border-bottom: 1px solid #525252;
+    /*background-color: pink;*/
+}
+.header-top{
+    height: 40px;
+    line-height: 40px;
+}
+.header-left-title{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 20px;
+    color: #070047;
+}
+.header-right ul li{
+    float: left;
+    margin: 0 20px;
+}
+.header-right ul li a{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #656565;
+    text-decoration: none;
+}
+.header-right ul li a:hover{
+    text-decoration: underline;
+}
+
+/*content*/
+.main{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: auto;
+}
+/*content-first*/
+.content-first{
+    height: 120px;
+    /*background-color: pink;*/
+}
+.content-first-logo{
+    padding: 10px 0px 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+.logo-img img{
+    width: 100px;
+    height: 100px;
+}
+.content-first-search{
+    float: right;
+    padding-top: 38px;
+    padding-right: 400px;
+}
+.content-first-search input[type=text]{
+    width: 300px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    font-family: microsoft yahei, arial, sans-serif;
+    border: 1px solid gainsboro;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+    -moz-border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 15px;
+}
+.content-first-search button{
+    width: 80px;
+    height: 44px;
+    float: left;
+    background-color: #227FCA;
+    font-family: microsoft yahei, arial, sans-serif;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-bottom-right-radius:22 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+}
+
+/*content-second*/
+.content-second{
+    height: auto;
+    /*background-color: pink;*/
+}
+.content-second-top{
+    width: 100%;
+    height: 50px;
+    background-color:#227FCA ;
+    color: white;
+    line-height: 50px;
+    position: relative;
+}
+.content-second-top-box{
+    width: 200px;
+    height: 100%;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    text-align: center;
+    float: left;
+}
+.second-top-active{
+    background-color: #3F5790;
+}
+.content-second-top-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.section-area-select-top{
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    position: absolute;
+    background-color: #3F5790;
+    font-family: microsoft yahei, arial, sans-serif;
+    color: white;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.section-area-select-droplist{
+    width: 200px;
+    background-color: #227FCA;
+    position: absolute;
+    left: 0px;
+    top: 50px;
+    display: none;
+}
+.section-area-select-droplist li{
+    height: 50px;
+    line-height: 50px;
+    font-family: microsoft yahei, arial, sans-serif;
+    color: white;
+    font-size: 17px;
+}
+.section-area-select-droplist li{
+    font-family: microsoft yahei, arial, sans-serif;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section-area-select-droplist li span i{
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+.section-area-select-droplist li:hover{
+    background-color: white;
+    color: #227FCA;
+}
+/*content-second-wrap*/
+.content-second-wrap{
+    height: auto;
+    padding: 20px 20px;
+}
+.content-second-wrap-left{
+    width: 390px;
+    float: left;
+}
+.content-second-wrap-left img{
+    width: 390px;
+    height: 360px;
+}
+.first-foot-shop-img{
+    float: left;
+    width: 75px;
+}
+.first-foot-shop-img .shop-img-list{
+    width: 60px;
+    height: 60px;
+    border: #fff solid 2px;
+}
+.first-foot-shop-img .shop-img-list:hover,
+.first-foot-shop-img .shop-img-list:focus{
+    border: #FF4400 solid 2px;
+}
+
+.content-second-wrap-right{
+    width: 740px;
+    height: 360px;
+    float: right;
+}
+.content-second-wrap-right-top{
+    font-family: microsoft yahei, arial, sans-serif;
+    color: #656565;
+    font-size: 18px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+}
+
+.content-second-wrap-right-content{
+    height: 120px;
+    background-color: #E5E5E5;
+    margin-top: 20px;
+}
+.content-second-wrap-right-left{
+    padding: 20px;
+}
+.content-second-wrap-right-left-attr{
+    font-size: 18px;
+    font-family: microsoft yahei, arial, sans-serif;
+    color: #999999;
+    line-height: 25px;
+}
+.content-second-wrap-right-left-price{
+    font-size: 15px;
+    color: #999999;
+    line-height: 25px;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.content-second-wrap-right-left-sale{
+    font-size: 15px;
+    color: #FF4300;
+    line-height: 25px;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.content-second-wrap-right-right{
+    padding: 10px 20px;
+}
+.content-second-wrap-right-right-list{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    line-height: 19px;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.content-second-wrap-right-right-list span{
+    display: block;
+}
+.content-second-wrap-right-right-list1{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 20px;
+    border-left: #227FCA solid 1px;
+    height: 28px;
+}
+.content-second-wrap-right-right-list{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 12px;
+    color: #999999;
+    line-height: 19px;
+}
+
+.content-second-wrap-right-middle{
+    height: 80px;
+    margin-top: 20px;
+    line-height: 80px;
+    padding: 0 20px;
+}
+.content-second-wrap-right-middle-num{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #999999;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.content-second-wrap-right-middle-text-btn{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 30px;
+}
+.content-second-wrap-right-middle-sub,
+.content-second-wrap-right-middle-add{
+    background-color: #F0F0F0;
+    border: gainsboro solid 1px;
+    height: 26px;
+    font-size: 12px;
+    color: #656565;
+    line-height: 19px;
+    cursor: pointer;
+}
+.content-second-wrap-right-middle-text-btn input{
+    width: 46px;
+    height: 22px;
+    border: gainsboro solid 1px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 12px;
+    color: #656565;
+    line-height: 19px;
+}
+
+.section-area-first-right-foot{
+    height: 60px;
+    line-height: 60px;
+    margin-top: 10px;
+    padding: 0 20px;
+}
+.first-right-foot-add-car{
+    border: none;
+    width: 180px;
+    height: 40px;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    line-height: 19px;
+    background-color: #227FCA;
+    cursor: pointer;
+}
+
+/*content-third*/
+.content-third{
+   height: auto;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+/*标签页*/
+.tabs {
+    width: 100%;
+    background-color: #227FCA;
+    padding: 15px 0;
+}
+
+.tabhost {
+    width: 100%;
+    background-color: #227FCA;
+}
+
+.tabhost a {
+    text-decoration: none;
+    /*background: #f7f7f7;*/
+    /*color: #ed6c07;*/
+    color: white;
+    padding: 12px 60px;
+}
+.tabhost a:hover {
+    background: #227FCA;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.tabhost a.selected {
+    background: #3F5790;
+    color: white;
+    padding-bottom: 12px;
+}
+
+.tabcontent {
+    height: auto;
+    margin-top: 10px;
+}
+/*商品评论*/
+.content-third-detail{
+    margin-bottom: 50px;
+}
+.content-third-detail-img img{
+    width: 100%;
+    height: 600px;
+}
+.content-third-comment{
+    padding-bottom: 50px;
+}
+.content-third-comment-list{
+    width: 100%;
+    height: auto;
+    padding: 10px 20px 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    /*background-color: pink;*/
+    border-bottom: 1px solid gainsboro;
+}
+.content-third-comment-list-title{
+    font-family: microsoft yahei, arial, sans-serif;
+    color: #999999;
+    font-size: 15px;
+}
+.content-third-comment-list-show{
+    padding-top: 10px;
+}
+.content-third-comment-list-show img{
+    width: 50px;
+    height: 50px;
+    padding-right: 10px;
+}
+.content-third-comment-list-time{
+    font-family: microsoft yahei, arial, sans-serif;
+    color: #999999;
+    font-size: 12px;
+    padding: 10px 0;
+}
+.content-third-comment-list-time :first-child{
+    padding-right: 20px;
+}
+.content-third-comment-list-name{
+    font-family: microsoft yahei, arial, sans-serif;
+    color: #999999;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+
+/*page*/
+.section-second-paging{
+    padding: 0 10px;
+
+}
+.second-paging-btn{
+    display: inline-block;
+    vertical-align: middle;
+}
+.second-paging-btn button{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 21px;
+    cursor: pointer;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.second-paging-btn1 button{
+    background-color: #99D5FF;
+    width: 75px;
+    height: 35px;
+    color: #ffffff;
+}
+.second-paging-btn1 button:hover{
+    background-color: #B6E1FF;
+}
+.second-paging-btn2 button{
+    border: gainsboro solid 1px;
+    width: 75px;
+    height: 35px;
+    color: #656565;
+}
+.second-paging-btn2 button:hover,
+.second-paging-btn3 button:hover{
+    background-color: gainsboro;
+}
+.second-paging-btn3 button{
+    border: gainsboro solid 1px;
+    width: 40px;
+    height: 35px;
+    color: #656565;
+}
+.second-paging-btn3 input{
+    border: gainsboro solid 1px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 5px;
+    width: 30px;
+    height: 35px;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.2//EN"  
+        "http://tuckey.org/res/dtds/urlrewrite3.2.dtd">
+
+<urlrewrite>
+	<rule>
+		<from>^/([A-Za-z0-9]+)/([A-Za-z0-9]+)/([A-Za-z0-9]+)/([A-Za-z0-9]+).html$</from>
+		<to>/$1_$2_$3_$4</to>
+	</rule>
+</urlrewrite> 

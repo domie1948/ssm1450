@@ -1,0 +1,174 @@
+.common {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+/*header*/
+.header{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: 40px;
+    border-bottom: 1px solid #525252;
+    /*background-color: pink;*/
+}
+.header-top{
+    height: 40px;
+    line-height: 40px;
+}
+.header-left-title{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 20px;
+    color: #070047;
+}
+.header-right ul li{
+    margin: 0 20px;
+    float: left;
+}
+.header-right ul li a{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #656565;
+    text-decoration: none;
+}
+.header-right ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/*content*/
+.main{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: auto;
+}
+.content-top{
+    width: 100%;
+    height: 50px;
+    background-color:#227FCA ;
+    color: white;
+    line-height: 50px;
+    position: relative;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    padding-left: 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-content{
+    margin-bottom: 150px;
+}
+
+.form-group{
+    width: 940px;
+    height: 90px;
+    line-height: 90px;
+    /*background-color: #ffb07c;*/
+    margin: 0 auto;
+}
+.form-group input[type=text]{
+    width: 400px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #656556;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-group select{
+    width: 400px;
+    height: 50px;
+    border: 1px solid gainsboro;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    padding-left: 15px;
+    color: #666;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-group select option{
+    width: 400px;
+    height: 50px;
+    border: 1px solid gainsboro;
+}
+
+.form-group-left{
+    height: 90px;
+    width: 300px;
+    float: left;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    text-align: right;
+    letter-spacing: 5px;
+    /*background-color: #81b4ff;*/
+}
+.form-group-right{
+    height: 90px;
+    width: 640px;
+    float: left;
+    position: relative;
+    /*background-color: #ffb6c3;*/
+}
+.form-group-upload{
+    width: 940px;
+    height: 200px;
+    line-height: 90px;
+    /*background-color: #ffb07c;*/
+    margin: 0 auto;
+}
+.form-group-right-upload{
+    height: 200px;
+    width: 400px;
+    float: left;
+    position: relative;
+    border: 1px solid red;
+}
+.form-group-save{
+    /*width: 800px;*/
+    margin-top: 50px;
+}
+.content-save-btn{
+    text-align: center;
+}
+.content-save-btn button{
+    width: 100px;
+    height: 40px;
+    background-color:#227FCA;
+    color: white;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    line-height: 40px;
+    border: none;
+    cursor: pointer;
+
+}

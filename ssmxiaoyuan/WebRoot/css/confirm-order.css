@@ -1,0 +1,384 @@
+.common {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+/*header*/
+.header{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: 40px;
+    border-bottom: 1px solid #525252;
+    /*background-color: pink;*/
+}
+.header-top{
+    height: 40px;
+    line-height: 40px;
+}
+.header-left-title{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 20px;
+    color: #070047;
+}
+.header-right ul li{
+    margin: 0 20px;
+    float: left;
+}
+.header-right ul li a{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #656565;
+    text-decoration: none;
+}
+.header-right ul li a:hover{
+    text-decoration: underline;
+}
+
+
+/*content*/
+.main{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: auto;
+}
+/*content-first*/
+.content-first{
+    height: 120px;
+    /*background-color: pink;*/
+}
+.content-first-logo{
+    padding: 10px 0px 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+.logo-img img{
+    width: 100px;
+    height: 100px;
+}
+.content-first-search{
+    float: right;
+    padding-top: 38px;
+    padding-right: 400px;
+}
+.content-first-search input[type=text]{
+    width: 300px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    font-family: microsoft yahei, arial, sans-serif;
+    border: 1px solid gainsboro;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+    -moz-border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 15px;
+}
+.content-first-search button{
+    width: 80px;
+    height: 44px;
+    float: left;
+    background-color: #227FCA;
+    font-family: microsoft yahei, arial, sans-serif;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-bottom-right-radius:22 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+}
+
+/*content-second*/
+.content-second{
+    height: auto;
+}
+.content-second-top{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #227FCA;
+    padding: 0px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+}
+.content-second-top-right{
+    cursor: pointer;
+}
+.content-second-add{
+    height: auto;
+}
+.content-second-add-list{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: #333333;
+    margin: 20px 20px 0px;
+}
+.content-second-add-list span{
+    margin-left: 50px;
+}
+.add-change{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #227FCA;
+}
+.add-change a{
+    cursor: pointer;
+    color: #227FCA;
+    text-decoration: none;
+}
+.add-change a:hover{
+    text-decoration: underline;
+}
+.add-modify{
+    margin-right: 20px;
+}
+
+/*content-third*/
+.content-third{
+    margin-top: 80px;
+}
+.content-third-top{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    background-color: #227FCA;
+    padding: 0px 20px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    color: white;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+}
+
+.content-second-table table{
+    width: 100%;
+    text-align: center;
+    /*border: gainsboro solid 1px;*/
+}
+.content-second-table table tr th{
+    border: gainsboro solid 1px;
+    height: 40px;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #227FCA;
+    font-weight: normal;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.content-second-table table tr td{
+    border: gainsboro solid 1px;
+    padding: 15px 0;
+    vertical-align: middle;
+    font-size: 14px;
+    color: #333333;
+    font-family: microsoft yahei, arial, sans-serif;
+}
+.first-right-middle-text-btn{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+}
+.first-right-middle-sub,
+.first-right-middle-add{
+    background-color: #F0F0F0;
+    border: gainsboro solid 1px;
+    height: 26px;
+    font-size: 12px;
+    color: #656565;
+    line-height: 19px;
+    cursor: pointer;
+}
+.first-right-middle-text-btn input{
+    width: 46px;
+    height: 22px;
+    border: gainsboro solid 1px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 12px;
+    color: #656565;
+    line-height: 19px;
+}
+.first-right-middle-text-btn input{
+    width: 46px;
+    height: 22px;
+    border: gainsboro solid 1px;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+    font-size: 12px;
+    color: #333333;
+    line-height: 19px;
+}
+.delete{
+    font-size: 14px;
+    color: #656565;
+    font-family: microsoft yahei, arial, sans-serif;
+    cursor: pointer;
+}
+.delete:hover{
+    text-decoration: underline;
+}
+.content-second-last{
+    text-align: right;
+}
+.content-second-last button{
+    width: 100px;
+    height: 40px;
+    background-color: #227FCA;
+    border: none;
+    color: white;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+}
+.content-fourth{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: #333333;
+}
+
+
+/*pop-up*/
+.mask{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1,1,1,.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: none;
+}
+.pop-address{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    background-color: white;
+    left: 50%;
+    top: 50%;
+    z-index: 99;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    margin-left: -200px;
+    margin-top: -200px;
+    -webkit-box-shadow:5px 5px 10px rgba(1,1,1,.5);
+    -moz-box-shadow: 5px 5px 10px rgba(1,1,1,.5);
+    box-shadow: 5px 5px 10px rgba(1,1,1,.5);
+    display: none;
+}
+.pop-address-top{
+    width: 100%;
+    height: 50px;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: white;
+    background-color: #227FCA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    line-height: 50px;
+    text-align: center;
+    position: relative;
+}
+.close-img{
+    position: absolute;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+}
+.pop-address-content-list{
+    height: 80px;
+    line-height: 80px;
+    margin-left: 20px;
+}
+.pop-address-content-list label{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: #333333;
+    vertical-align: top;
+}
+.pop-address-content-list textarea{
+    width: 240px;
+    height: 60px;
+    resize: none;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #333333;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+}
+.pop-address-content-list1{
+    height: 40px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.pop-address-content-list1 label{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: #333333;
+    vertical-align: top;
+    letter-spacing: 5px;
+}
+.pop-address-content-list1 input{
+    width: 240px;
+    height: 30px;
+    resize: none;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #333333;
+    border: 1px solid gainsboro;
+    padding-left: 10px;
+}
+.pop-address-btn{
+    text-align: center;
+}
+.pop-address-btn button{
+    width: 130px;
+    height: 40px;
+    background-color: #227FCA;
+    color: white;
+    border: none;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}

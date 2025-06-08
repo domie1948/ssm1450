@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zs.test.dao.inf.OrderextDao">
+  	 <resultMap type="com.zs.test.entity.Orderext" id="orderextMap">
+        <id property="id" column="id" />
+      	<result property="goodid" column="goodid"/>
+        <result property="orderid" column="orderid"/>
+        <result property="num" column="num"/>
+      
+     </resultMap>
+     <sql id="column_list">id,goodid,orderid,num</sql>
+	<select id="getOrderextByOrder" parameterType="int" resultMap="orderextMap">
+       select <include refid="column_list"/> from orderext where orderid = #{orderid}
+    </select>
+ 
+    
+    <insert id="addorderextFull" parameterType="com.zs.test.entity.Orderext">
+    	insert into orderext (goodid ,orderid,num) values(#{goodid},#{orderid},#{num})
+    </insert>
+  
+</mapper>

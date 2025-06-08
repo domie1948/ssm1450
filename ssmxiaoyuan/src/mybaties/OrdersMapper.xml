@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.zs.test.dao.inf.OrdersDao">
+  	 <resultMap type="com.zs.test.entity.Orders" id="ordersMap">
+        <id property="id" column="id" />
+        <result property="price" column="price" />
+        <result property="addtime" column="addtime"/>
+        <result property="userid" column="userid"/>
+        <result property="addid" column="addid"/>
+        <result property="status" column="status"/>
+     </resultMap>
+     <sql id="column_list">id,price,addtime,userid,addid,status</sql>
+
+ 	<select id="getOrdersById" parameterType="int" resultMap="ordersMap">
+    	 select <include refid="column_list"/> from orders where id = #{id}
+    </select>
+    
+    <select id="getOrdersByUserId" parameterType="int" resultMap="ordersMap">
+    	 select <include refid="column_list"/> from orders where userid = #{userid}
+    </select>
+    
+    <insert id="addOrder" parameterType="com.zs.test.entity.Orders"  useGeneratedKeys="true" keyProperty="id">
+    	insert into orders (price,addtime,userid,addid,status) values (#{price},#{addtime},#{userid},#{addid},#{status})
+    </insert>
+    
+   <select id="getAllOrders" resultMap="ordersMap">
+   		select <include refid="column_list"/> from orders where 1 = 1
+   </select>
+    
+    <update id="updataStatus" parameterType="com.zs.test.entity.Orders">
+    update orders set status =#{status} where id=#{id}
+    </update>
+   
+    <update id="updataPrice" parameterType="com.zs.test.entity.Orders">
+    update orders set price =#{price} where id=#{id}
+    </update>
+    
+    
+</mapper>

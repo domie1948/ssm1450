@@ -1,0 +1,300 @@
+.common {
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+.clear{
+    clear: both;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+/*header*/
+.header{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: 40px;
+    border-bottom: 1px solid #525252;
+    /*background-color: pink;*/
+}
+.header-top{
+    height: 40px;
+    line-height: 40px;
+
+}
+.header-left-title{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 20px;
+    color: #070047;
+}
+.header-right ul li{
+    margin: 0 20px;
+    float: left;
+}
+.header-right ul li a{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #656565;
+    text-decoration: none;
+}
+.header-right ul li a:hover{
+    text-decoration: underline;
+}
+
+
+
+/*content*/
+.main{
+    min-width: 1200px;
+    margin: 0px auto 0;
+    height: auto;
+}
+/*content-first*/
+.content-first{
+    height: 120px;
+    /*background-color: pink;*/
+}
+.content-first-logo{
+    padding: 10px 0px 10px 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+}
+.logo-img{
+    height: 100px;
+    width: 100px;
+}
+.logo-img img{
+    width: 100px;
+    height: 100px;
+}
+.content-first-search{
+    float: right;
+    padding-top: 38px;
+    padding-right: 400px;
+}
+.content-first-search input[type=text]{
+    width: 300px;
+    height: 40px;
+    float: left;
+    font-size: 16px;
+    font-family: microsoft yahei, arial, sans-serif;
+    border: 1px solid gainsboro;
+    -webkit-border-bottom-left-radius: 30px;
+    -moz-border-bottom-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    -webkit-border-top-left-radius: 30px;
+    -moz-border-top-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-left: 15px;
+}
+.content-first-search button{
+    width: 80px;
+    height: 44px;
+    float: left;
+    background-color: #227FCA;
+    font-family: microsoft yahei, arial, sans-serif;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    -webkit-border-bottom-right-radius: 25px;
+    -moz-border-bottom-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    -webkit-border-top-right-radius: 25px;
+    -moz-border-top-right-radius: 25px;
+    border-top-right-radius: 25px;
+    cursor: pointer;
+}
+
+/*content-second*/
+.content-second{
+    height: 460px;
+    /*background-color: pink;*/
+}
+.content-third-col-1{
+    width: 200px;
+    height: 460px;
+    background-color: #227FCA;
+    float: left;
+}
+.content-third-col-1 .class-title{
+    height: 60px;
+    background-color: #3F5790;
+    font-size: 21px;
+    font-family: microsoft yahei, arial, sans-serif;
+    color: white;
+    line-height: 60px;
+    padding-left: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.content-third-col-1 ul{
+    position: relative;
+}
+
+.content-third-col-1 ul li{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    /*background-color: #e61524;*/
+    -webkit-transition: all 0.2s linear;
+    -moz-transition:  all 0.2s linear;
+    -ms-transition:  all 0.2s linear;
+    -o-transition:  all 0.2s linear;
+    transition:  all 0.2s linear;
+}
+
+.content-third-col-1 ul li:hover{
+    background-color: #f7f7f7;
+    color: #227FCA;
+}
+.content-third-col-1 ul li{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: white;
+}
+
+.content-third-col-1 ul .class-title span{
+    font-size: 21px;
+}
+.shop-classify{
+    width: 150px;
+    height: 400px;
+    background-color: #f7f7f7;
+    color: #666;
+    position: absolute;
+    top:0px;
+    left: 100%;
+    z-index: 99999;
+    font-size: 19px;
+    display: none;
+}
+.shop-classify ul li a{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: #666;
+    text-decoration: none;
+}
+.shop-classify ul li:hover{
+    background-color: #227FCA;
+    color: white;
+
+}
+.shop-classify ul li a:hover{
+    color: white;
+}
+.content-third-col-2{
+    width: 980px;
+    height: 460px;
+    margin-left: 20px;
+    /*background-color: navajowhite;*/
+    float: left;
+}
+
+/*content-third*/
+.content-third{
+    height: auto;
+    padding-bottom: 50px;
+}
+.content-third-row-top-left{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 25px;
+    color: #666;
+    padding-left: 10px;
+    border-left: 4px solid #FF4400;
+}
+.content-third-row-top-right a{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 19px;
+    color: #666;
+    text-decoration: none;
+}
+.content-third-row-top-right a:hover{
+    text-decoration: underline;
+}
+.content-third-col{
+    width: 266px;
+    height: 233px;
+    background-color: white;
+    float: left;
+    border: 1px solid gainsboro;
+    -webkit-box-shadow: 2px 5px 10px gainsboro;
+    -moz-box-shadow:  2px 5px 10px gainsboro;
+    box-shadow:  2px 5px 10px gainsboro;
+    cursor: pointer;
+}
+.content-third-col:first-child{
+    margin-right: 40px;
+}
+.content-third-col:nth-child(2){
+    margin-right: 40px;
+}
+.content-third-col:nth-child(3){
+    margin-right: 40px;
+}
+.content-third-col:last-child{
+    margin-right: 0px;
+}
+.content-third-col-img{
+    width: 100%;
+    height: 175px;
+}
+.content-third-col-img  img{
+    width: 100%;
+    height: 175px;
+}
+.content-third-col-title{
+    width: 250px;
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 17px;
+    color: #333;
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.content-third-col-price{
+    font-family: microsoft yahei, arial, sans-serif;
+    font-size: 15px;
+    color: #333;
+    padding-left: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.shop-car{
+    width: 25px;
+    height: 25px;
+    float: right;
+    margin-top: 15px;
+    margin-right: 5px;
+}
+.shop-car img{
+    width: 25px;
+    height: 25px;
+}

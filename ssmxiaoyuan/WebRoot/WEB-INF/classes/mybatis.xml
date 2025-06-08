@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD Config 3.0//EN" "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+	</typeAliases>
+	<mappers>
+		<mapper resource="mybaties/UserMapper.xml" />
+		<mapper resource="mybaties/GoodsMapper.xml" />
+		<mapper resource="mybaties/CartMapper.xml" />
+		<mapper resource="mybaties/OrdersMapper.xml" />
+		<mapper resource="mybaties/OrderextMapper.xml" />
+		<mapper resource="mybaties/AddressMapper.xml" />
+	</mappers>
+</configuration>	

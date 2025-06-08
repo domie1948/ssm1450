@@ -1,0 +1,1 @@
+<%response.sendRedirect("front_indexAction_index");%>
